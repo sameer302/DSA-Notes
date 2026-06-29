@@ -68,3 +68,9 @@ cout << "World";
 cout << "Hello\n";
 cout << "World";
 ```
+
+# Time and Space Complexity
+
+## Important points
+- Simple way to calculate is to see the number of iterations of different loops in our code and find how many times a particular set of operations is being repeated.
+- To find exact complexity we need to write the recursive relation and then solve it using series sum or masters theorem. 
