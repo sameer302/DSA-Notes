@@ -48,10 +48,10 @@
 -  It works by taking an element from the unsorted portion of a list and inserting it into its correct position relative to the already sorted elements.
 -  Stable
 -  In-place
--  Time Complexity:
-  - Best: O(n) 
-  - Average: O(n^2)
-  - Worst: O(n^2)
+- Time Complexity:
+  - Best - O(n) 
+  - Average - O(n^2)
+  - Worst - O(n^2)
 - This algorithm is efficient for small lists and nearly sorted lists as it is adaptive. Also in worst case although the memory writes are more but the sequential shift operation is optimized.
   - Used as a subroutine in Bucket Sort
   - Also used in hybrid sorting algorithms like Introsort in C++ where if the subarray size becomes small, we switch to insertion sort.
